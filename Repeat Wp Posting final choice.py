@@ -20,4 +20,3 @@ data = {
 }
 res = requests.post(api_url, headers=wp_headers, json=data, timeout=10)
 print('Status:', res.status_code)
-print('Response:', res.text)
